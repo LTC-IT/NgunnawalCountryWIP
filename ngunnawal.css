@@ -1,5 +1,11 @@
 h1 {
-    font-size: xxx-large;
-    color: red;
+    color: #570202;
+    text-align: center;
 }
 
+.grid-container {
+    display:grid;
+    grid-template-columns: auto auto; /* 2 column grid, auto size for width window*/
+    grid-gap: 1em;
+    padding: 1em;
+}
