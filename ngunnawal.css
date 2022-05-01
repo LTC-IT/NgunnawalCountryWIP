@@ -1,17 +1,8 @@
-h1 {
-    color: #570202;
-    text-align: center;
-}
-
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto; /* 2 column grid, auto size for width window*/
+    grid-template-columns: auto auto;
     grid-gap: 1em;
     padding: 1em;
-}
-
-.grid-container > div {
-    background-color: rgba(0,0,0, 0.2);
 }
 
 .full-width {
@@ -19,31 +10,6 @@ h1 {
     grid-column-end: 3;
 }
 
-.main-content {
-    grid-row-start: 2;
-    grid-row-end: 4;
+.grid-container > div {
+    background-color: rgba(0,0,0, 0.2);
 }
-
-
-
-.navbar {
-    overflow: hidden;
-    background-color: #333333;
-}
-
-.navbar a {
-    float: left;
-    font-size: 1em;
-    color: white;
-    text-align: center;
-    padding: 1em 1em;
-    text-decoration: none;
-}
-
-.navbar a:hover {
-    background-color: #2ccbb4;
-}
-
-/*body {*/
-/*    background-color: #ff0009;*/
-/*}*/
