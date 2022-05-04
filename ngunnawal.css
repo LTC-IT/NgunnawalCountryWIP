@@ -10,6 +10,36 @@
     grid-column-end: 3;
 }
 
+.double-height {
+    grid-row-start: span 2;
+}
+
 .grid-container > div {
     background-color: rgba(0,0,0, 0.2);
+}
+
+body {
+    background-color: lightblue;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.text-highlighting {
+    color: red;
+}
+
+.navbar a {
+    float: left;
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    padding: 1em 1em;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #2ccbb4;
 }
