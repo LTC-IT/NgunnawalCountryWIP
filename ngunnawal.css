@@ -27,12 +27,17 @@ body {
     background-color: #333333;
 }
 
+* {
+    margin:0;
+    padding:0;
+}
+
 .text-highlighting {
     color: red;
 }
 
 .navbar a {
-    float: left;
+    /*float: left;*/
     font-size: 1em;
     color: white;
     text-align: center;
@@ -42,4 +47,11 @@ body {
 
 .navbar a:hover {
     background-color: #2ccbb4;
+}
+
+.center {
+    /*display:inline-flex;*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
 }
