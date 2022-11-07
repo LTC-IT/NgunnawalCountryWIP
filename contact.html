@@ -4,16 +4,15 @@
     <meta charset="UTF-8">
     <title>Ngunnawal Country Website</title>
     <link rel="stylesheet" href="ngunnawal.css">
-
     <style>
-        <!--
-        Interal CSS-- >
+        form {
+            color: darkred;
+            font-size: large;
+            background-color: rgba(244, 164, 96, 0.4);
+        }
     </style>
-
 </head>
 <body>
-
-
 
 <!-- This is the navbar -->
 <div class="navbar">
@@ -27,18 +26,27 @@
 
 </div>
 
-
 <div class="grid-container"> <!-- Overall Layout -->
-    <div class="full-width text-highlighting">
-        <h1 style="text-align: center">Heading</h1>
+    <div class="full-width">
+        <h1 style="text-decoration: underline">Heading</h1>
     </div>
-    <div class="double-height">
-        Cell 1
+    <div class="main-content">
+        <form onsubmit="return false">
+            <p>
+                <label for="uname">Username</label>
+                <input type='text' id="uname" name='uname'>
+            </p>
+            <p>
+                <label for="pwd">Password</label>
+                <input type='password' id="pwd" name='pwd'>
+            </p>
+            <button onclick="authentication(this.form)">Log In</button>
+        </form>
     </div>
     <div>
         Cell 2
     </div>
-    <div class="text-highlighting">
+    <div>
         Cell 3
     </div>
 </div>
